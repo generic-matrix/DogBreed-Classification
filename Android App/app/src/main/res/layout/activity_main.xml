@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.otaliastudios.cameraview.CameraView
+            android:id="@+id/cameraView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </com.otaliastudios.cameraview.CameraView>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:visibility="invisible"
+            android:layout_gravity = "center"
+            android:indeterminateTint="@color/colorPrimary"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:id="@+id/get_breed"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/ef_white"
+            android:text="Get Dog Breed"
+            />
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="32dp"
+             />
+
+        <TextView
+            android:id="@+id/confidence"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=""
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
