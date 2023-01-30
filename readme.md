@@ -9,7 +9,7 @@
 
 German Shepard       |  Pug
 :-------------------------:|:-------------------------:
-![german_shepard](https://github.com/generic-matrix/Dog-Breed-Classification/blob/main/Output/german_shepard.png?raw=true)  |  ![Pug](https://github.com/generic-matrix/Dog-Breed-Classification/blob/main/Output/pug.png?raw=true)
+![german_shepard](https://github.com/generic-matrix/DogBreed-Classification/blob/main/Output/german_shepard.png?raw=true)  |  ![Pug](https://github.com/generic-matrix/DogBreed-Classification/blob/main/Output/pug.png?raw=true)
 
 
 
