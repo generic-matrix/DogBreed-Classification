@@ -26,7 +26,7 @@ The project has 4 folders
 # How to build the Android App
 
 * git clone <>
-* cd Android App (ALos download the model.tflite from the below link and paste it in the assets folder)
+* cd Android App (Also download the model.tflite from the below link and paste it in the assets folder)
 * Open the same on the Android Studio
 
 # APK can be downloaded from the [Link](https://drive.google.com/file/d/1RM5MZsdvZRtQnZOu7a-nhcYXtnitGVya/view?usp=sharing)
