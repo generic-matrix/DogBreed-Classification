@@ -18,7 +18,7 @@ German Shepard       |  Pug
 The project has 4 folders
 
 * Android App -> The Android App code
-* Model -> It has mode.tflite , it is the trained model
+* Labels -> It has labels.txt
 * APK -> The apk.app which can be installed onto a compatible Android device
 * Training -> It has Training.ipynb whci can be opened in Google Colab
 * Output -> The Output Video is in here
@@ -29,12 +29,14 @@ The project has 4 folders
 * cd Android App
 * Open the same on the Android Studio
 
+# APK can be downloaded from the [Link](https://drive.google.com/file/d/1RM5MZsdvZRtQnZOu7a-nhcYXtnitGVya/view?usp=sharing)
+
 
 # Steps Followed
 
 We are using NASNetLarge model , refer training.ipynb in the training folder
 
-1) convert classes.json to labels.txt
+1) convert classes.json to labels.txt and classes.json
 ```
 where {"A": 0, "B": 1,"C":2}
 ```
@@ -55,7 +57,7 @@ text_file.write('\n'.join(data.keys()))
 text_file.close()
 ```
 
-2) Download model.tflite from https://drive.google.com/file/d/1mYw36XgrNCya98B2Vx1QU601_Q5YJJs4/view?usp=sharing
+2) Download model.tflite from [Link](https://drive.google.com/file/d/1mYw36XgrNCya98B2Vx1QU601_Q5YJJs4/view?usp=sharing) 
 
 
 3) Create android app from android studio 
